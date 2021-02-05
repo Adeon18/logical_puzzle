@@ -1,6 +1,8 @@
 '''
 https://github.com/Adeon18/logical_puzzle
 '''
+# There are now proper commits in this repository becouse I
+# created 1 repo for 2 tasks and then had to move
 import math
 
 
