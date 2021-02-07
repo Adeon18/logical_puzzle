@@ -63,7 +63,7 @@ def get_color_comb(board: list, horizontal_coord: int,\
         if board[vertical][horizontal_coord].isdigit():
             line += board[vertical][horizontal_coord]
 
-    for horizontal in range(horizontal_coord, horizontal_coord+5):
+    for horizontal in range(horizontal_coord + 1, horizontal_coord+5):
         if board[vertical_coord+4][horizontal].isdigit():
             line += board[vertical_coord+4][horizontal]
 
